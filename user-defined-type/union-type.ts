@@ -1,14 +1,14 @@
-let userIds: (string | number | boolean);
+let userIdsss: (string | number | boolean);
 
-userIds = "101";
-userIds = 101;
-userIds = true;
+userIdsss = "101";
+userIdsss = 101;
+userIdsss = true;
 
 
 
-function displayUserInfo(userId:string | number | boolean){
+function displayUserInfoo(userId:string | number | boolean){
     console.log(userId);
 }
-displayUserInfo('string value');
-displayUserInfo(101);
-displayUserInfo(true);
+displayUserInfoo('string value');
+displayUserInfoo(101);
+displayUserInfoo(true);
